@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100vh;
+    background:url("./assets/test-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.font-montserrat{
+    font-family:'Montserrat', sans-serif;
+}
+
+.font-robotoSlab{
+    font-family:"Roboto Slab", serif;
+}
+
+.font-droid{
+    font-family: 'Droid Serif';
+}
+.font-Parisienne{
+    font-family: 'Parisienne', cursive;
+}
+
+.white{
+    color: #fff;
+}
+.black{
+    color: #222222;
+}
+
+.header .nav{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav .nav-logo{
+    color: #fed136;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    
+}
+.nav-links{
+    display: flex;
+    gap: 40px;
+}
+.nav .nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size:1.3rem ;
+    font-weight: 400;
+}
+
+.header-desc{
+    text-align: center;
+    margin-top: 250px;
+}
+.header-desc .header-subHeading{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header-desc .header-mainHeading{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    margin-block:30px;
+}
+button{
+    background: #f5ca35;
+    border: none;
+    padding: 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-block:30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.services{
+    padding: 50px 180px;
+    height: 100vh;
+    text-align: center;
+}
+.services .title{   
+    margin-top: 100px;
+}
+.heading{
+    font-weight: 700;
+    font-size: 3rem; 
+    margin-bottom: 20px;
+}
+.subHeading{
+    font-weight: 400;   
+    font-size: 1rem;
+    color: #777777;
+}
+
+.card-section{
+    display: flex ;
+    justify-content: space-around;
+    gap:20px;
+    margin-top: 100px;
+    padding-inline: 80px;
+}
+
+.card-section .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:25vw;
+}
+.card .img{    
+    border: 5px solid #f5ca35;
+    border-radius : 50%;
+    width:80px;
+}
+.card .img img{
+    width: 100%;
+}
+.card-section .desc .card-title{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #222222;
+    margin-block: 20px;
+}
+.card-section .desc .card-desc{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #777777;
+}
+
+.contact{
+    height: 100vh;
+    padding: 150px;
+    text-align: center;
+    padding-inline:200px ;
+    background: url('./assets/map\ image.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-form{
+    padding-top: 100px;
+    padding-inline:150px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:20px;
+}
+
+
+
+.styles{
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    color: #777777;
+    font-size: 1rem;
+}
+
+.row-span{
+    grid-row: span 3;
+}
+
+.footer{
+    padding: 50px 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .footer-text{
+    font-weight:400;
+}
